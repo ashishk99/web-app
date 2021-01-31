@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+  color: blue;
+  line-height: 1.6;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 1em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(90, 110, 50, 0.7);
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+.company-info {
+  background: lightcyan;
+  text-align: center;
+}
+
+.brand {
+  text-align: center;
+}
+
+.container span {
+  color: lightseagreen;
+}
+
+.queue {
+  background: whitesmoke;
+  padding: 1em;
+  display: block;
+}
+
+.queue button {
+  width: 200%;
+  padding: 1em;
+  background-color: lightcyan;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: lightblue;
+  color: white;
+}
+
+/* .queue input label {
+  padding: 1em;
+} */
+
+/*Form Styles*/
+
+.queue form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
