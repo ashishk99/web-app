@@ -50,6 +50,7 @@ ul {
 }
 
 .queue button {
+  display: block;
   width: 200%;
   padding: 1em;
   background-color: lightcyan;
