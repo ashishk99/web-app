@@ -15,6 +15,7 @@ body {
   margin-right: auto;
   max-width: 1100px;
   padding: 1em;
+  display: block;
 }
 
 ul {
@@ -49,15 +50,28 @@ ul {
   display: block;
 }
 
-.queue button {
+/* .queue button {
   /* display: block; */
-  width: auto;
-  max-width: 100%;
-  float: right;
-  padding: 1em;
+/* width: auto; */
+/* max-width: 200%; */
+/* float: center; */
+/* padding: 1em;
+  background-color: lightcyan; */
+/* border: 0; */
+/* text-transform: uppercase; */
+/* } */
+
+.queue button {
   background-color: lightcyan;
+  padding: 1em;
+  text-align: center;
+  min-width: 100%;
+  float: center;
   border: 0;
-  text-transform: uppercase;
+}
+
+.queue text-field {
+  padding: 1em;
 }
 
 .button:hover {
@@ -72,7 +86,10 @@ ul {
 /*Form Styles*/
 
 .queue form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  display: block;
+  /* grid-template-columns: 0.1fr 0.1fr; */
+  grid-gap: 22px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
