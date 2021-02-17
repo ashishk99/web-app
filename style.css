@@ -79,17 +79,37 @@ ul {
   color: white;
 }
 
-/* .queue input label {
-  padding: 1em;
-} */
+.queue input {
+  width: 250px;
+  scroll-padding-right: 10%;
+}
+
+.alert {
+  background: blue;
+  color: aliceblue;
+  text-align: center;
+  padding: 1ch;
+  font-size: large;
+  display: none;
+}
 
 /*Form Styles*/
 
 .queue form {
   display: block;
-  /* grid-template-columns: 0.1fr 0.1fr; */
-  grid-gap: 22px;
+  /* grid-template-columns: 0fr 0fr; */
+  /* grid-gap: 22px; */
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 700px) {
+  .queue form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .queue button {
+    width: 200%;
+  }
 }
